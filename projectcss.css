@@ -67,21 +67,29 @@ button
 border: 0ch;
 color: white;
 background-color: black;
+font-weight: bold;
+padding: px;
 }
+
+
 .hello
 {position: fixed;
   top: 0px;
   left: 0px;
   
 }
+.hello:hover{
+transition: 0.3s;
+
+}
 
 .title {
 
 width: 700px;
 height: 75%;
-margin-top: 50px;
+margin-top: 75px;
  color: white;
-font-size: 55px;
+font-size: 60px;
 
 font-family: "Segoe UI", Arial, sans-serif;
 }
@@ -329,12 +337,12 @@ transform: scale(20);
 {
   position: absolute;
   top: 111.5px;
-  left: 4244.20px;
-  width: 100px;
+  left: 4194.20px;
+  width: 200px;
   height: 100px;
   background: rgba(0,0,0,0.6);
   color: white;
-  font-size: large;
+  font-size: small;
   font-family:'quicksend', sans-serif ;
   display: flex;
   flex-direction: column;
@@ -401,6 +409,7 @@ transform: scale(20);
 {
   font-size: 2em;
   font-weight: normal;
+  color: darkred;
 }
 .marsdesc
 {
@@ -664,7 +673,7 @@ transform: scale(20);
 }
 .image_pluto:hover
 {
-transform: scale(100);
+transform: scale(80);
 }
 
 .plutooverlay
@@ -720,6 +729,79 @@ top: 414.5px;
   font-size: 0.60rem;
 width: 100px;
 }
+
+.close1
+{
+  position: absolute;
+  left: 3670px;
+  color: white;
+  top: 413px;
+  font-size: 0.60rem;
+width: 200px;
+}
+
+.close2
+{
+  position: absolute;
+  left: 4670px;
+  color: white;
+  top: 413px;
+  font-size: 0.60rem;
+width: 400px;
+}
+
+.close3
+{
+  position: absolute;
+  left: 6670px;
+  color: white;
+  top: 413px;
+  font-size: 0.60rem;
+width: 400px;
+}
+
+
+
+.close4
+{
+  position: absolute;
+  left: 12070px;
+  color: white;
+  top: 413px;
+  font-size: 0.60rem;
+width: 400px;
+}
+
+.close5
+{
+  position: absolute;
+  left: 16070px;
+  color: white;
+  top: 413px;
+  font-size: 0.60rem;
+width: 400px;
+}
+
+.close6
+{
+  position: absolute;
+  left:33070px;
+  color: white;
+  top: 413px;
+  font-size: 0.60rem;
+width: 400px;
+}
+
+.close7
+{
+  position: absolute;
+  left:58670px;
+  color: white;
+  top: 413px;
+  font-size: 0.60rem;
+width: 400px;
+}
+
 
 .far
 {
