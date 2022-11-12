@@ -77,8 +77,9 @@ background-color: black;
 
 .title {
 
-margin-top: 100px;
-  color: white;
+width: 700px;
+height: 100%;
+ color: white;
 font-size: 70px;
 
 font-family: "Segoe UI", Arial, sans-serif;
