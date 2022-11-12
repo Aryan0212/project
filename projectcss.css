@@ -1,0 +1,797 @@
+/* Style the header: fixed position (always stay at the top) */
+html
+{
+  scroll-behavior: smooth;
+}
+
+
+/*
+.header {
+    
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    background-color: #f1f1f1;
+  }
+  
+  /*  
+  .progress-container {
+    width: 100%;
+    height: 15px;
+  }
+  
+  
+  .progress-bar {
+    height: 15px;
+    width: 0%;
+    position: absolute;
+  }
+
+.hello2
+{
+  color: white;
+  background-color: black;
+
+}
+
+  
+
+
+ .row {
+  display: flex;
+}
+​
+.scale , .title , .sunimg , .earthimg , .venimg , .saturnimg , .jupiterimg , .marsimg , .merimg
+{
+  flex:1;
+}
+
+.gap
+{
+  left: 2400px;
+  background-color: #000;
+  background-repeat: repeat-x;
+  background-position: left bottom;
+  width: 1702774px;
+  height: 99.9%;
+}
+
+.title
+{
+margin-right:1000px ;
+}
+*/
+
+button
+{
+border: 0ch;
+color: white;
+background-color: black;
+}
+.hello
+{position: fixed;
+  top: 0px;
+  left: 0px;
+  
+}
+
+.title {
+
+margin-top: 100px;
+  color: white;
+font-size: 70px;
+
+font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.hello
+{
+  color: white;
+
+vertical-align: bottom;
+margin: 0%;
+padding: 0%;
+height: 50px;
+
+
+}
+
+body
+{background-color:  black;
+  scroll-behavior:smooth;
+  font-family: "Segoe UI", sans-serif;
+}  
+
+.full
+{
+  width: 100000px;
+  height: 1000px;
+}
+
+.image_mer
+{
+  position: absolute;
+  top: 411px;
+  left: 3000px;
+  transition: .3s;
+}
+.image_mer:hover
+{
+  transform: scale(50);
+}
+.image_sun
+{
+  position: absolute;
+  top: 213px;
+  left: 1500px;
+}
+.sunoverlay
+{
+  position: absolute;
+  top: 213px;
+  left: 1500px;
+  width: 400px;
+  height: 400px;
+  background: rgba(0,0,0,0.6);
+  color: white;
+  font-size: large;
+  font-family:'quicksend', sans-serif ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0; 
+  transition: 0.25s;
+}
+.sunoverlay:hover{
+  opacity:1;
+}
+.sunhead
+{
+  font-size: 2em;
+  font-weight:normal;
+
+}
+.sundesc
+{
+  font-size: 1.25em;
+  margin-top: 0.25em;
+}
+
+
+
+.image_ven
+{
+  position: absolute;
+  top: 411.5px;
+  left: 4294.20px;
+transition: .3s;
+}
+.image_ven:hover
+{
+transform: scale(100);
+}
+.image_earth
+{
+  position: absolute;
+  top: 411.5px;
+  left: 5302.25px;
+  transition: 0.3s;
+}
+
+.image_earth:hover
+{
+  transform: scale(100);
+}
+
+.image_mars
+{
+  position: absolute;
+  top: 412px;
+  left: 7275.64px;
+  transition: .3s;
+}
+
+.image_mars:hover
+{
+  transform: scale(100);
+}
+
+
+.image_jup
+{
+  position: absolute;
+  top: 393px;
+  left: 15000px;
+  transition: .3s;
+}
+
+.image_jup:hover
+{
+  transform: scale(10);
+}
+.image_sat
+{
+  position: absolute;
+  top: 396px;
+  left: 17000px;
+  transition: .3s;
+}
+
+.image_sat:hover
+{
+  transform: scale(10);
+}
+.image_ur
+{
+  position: absolute;
+  top: 406px;
+  left: 34000px;
+transition: .3s;
+}
+
+.image_ur:hover
+{
+transform: scale(15);
+}
+.image_nep
+{
+  position: absolute;
+  top: 406px;
+  left: 60000px;
+  transition: .3s;
+}
+
+.image_nep:hover
+{
+transform: scale(20);
+}
+
+
+.pixelsscrolled
+{
+  font-family: "Segoe UI", sans-serif;
+  font-size: 15px;
+  position: fixed;
+
+  right:2px; 
+  bottom:0px;
+
+  color: white;
+  font-style: normal;
+}
+
+.merc
+{
+  position: absolute;
+  top: 111px;
+  left: 2980px;
+  width: 100px;
+  height: 100px;
+  color: grey;
+  font-size: 00.75rem;
+  
+
+}
+
+.meroverlay
+{
+  position: absolute;
+  top: 111px;
+  left: 2950px;
+  width: 100px;
+  height: 100px;
+  background: rgba(0,0,0,0.6);
+  color: white;
+  font-size: large;
+  font-family:'quicksend', sans-serif ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0; 
+  transition: 0.25s;
+}
+
+
+.meroverlay:hover{
+  opacity:1;
+}
+.merhead
+{
+  font-size: 2em;
+  font-weight: normal;
+}
+.merdesc
+{
+  font-size: 1.25em;
+  margin-top: 0.25em;
+}
+
+.venu
+{
+
+  position: absolute;
+  top: 111px;
+  left: 4274.20px;
+  width: 100px;
+  height: 100px;
+  color: grey;
+  font-size: 00.75rem;
+  
+
+}
+
+
+.venoverlay
+{
+  position: absolute;
+  top: 111.5px;
+  left: 4244.20px;
+  width: 100px;
+  height: 100px;
+  background: rgba(0,0,0,0.6);
+  color: white;
+  font-size: large;
+  font-family:'quicksend', sans-serif ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0; 
+  transition: 0.25s;
+}
+
+
+.venoverlay:hover{
+  opacity:1;
+}
+.venhead
+{
+  font-size: 2em;
+  font-weight: normal;
+}
+.vendesc
+{
+  font-size: 1.25em;
+  margin-top: 0.25em;
+}
+
+
+.mar
+{
+
+  position: absolute;
+  top: 111px;
+  left: 7255.64px;
+  width: 100px;
+  height: 100px;
+  color: grey;
+  font-size: 00.75rem;
+  
+
+}
+
+.marsoverlay
+{
+  position: absolute;
+  top: 111.5px;
+  left: 7225.64px;
+  width: 100px;
+  height: 100px;
+  background: rgba(0,0,0,0.6);
+  color: white;
+  font-size: large;
+  font-family:'quicksend', sans-serif ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0; 
+  transition: 0.25s;
+}
+
+
+.marsoverlay:hover{
+  opacity:1;
+}
+.marshead
+{
+  font-size: 2em;
+  font-weight: normal;
+}
+.marsdesc
+{
+  font-size: .60em;
+  margin-top: 0.25em;
+}
+.ear
+{
+
+  position: absolute;
+  top: 111px;
+  left: 5282.25px;
+  width: 100px;
+  height: 100px;
+  color: grey;
+  font-size: 00.75rem;
+  
+
+}
+.earthoverlay
+{
+  position: absolute;
+  top: 111.5px;
+  left: 5252.25px;
+  width: 100px;
+  height: 100px;
+  background: rgba(0,0,0,0.6);
+  color: aqua;
+  font-size: large;
+  font-family:'quicksend', sans-serif ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0; 
+  transition: 0.25s;
+}
+
+
+.earthoverlay:hover{
+  opacity:1;
+}
+.earthhead
+{
+  font-size: 2em;
+  font-weight: normal;
+}
+.earthdesc
+{
+  font-size: 1.25em;
+  margin-top: 0.25em;
+}
+
+
+
+
+.jupi
+{
+
+  position: absolute;
+  top: 111px;
+  left: 15015px;
+  width: 100px;
+  height: 100px;
+  color: grey;
+  font-size: 00.75rem;
+  
+
+}
+.jupoverlay
+{
+  position: absolute;
+  top: 111.5px;
+  left: 14965px;
+  width: 120px;
+  height: 200px;
+  background: rgba(0,0,0,0.6);
+  color: orange;
+  font-size: large;
+  font-family:'quicksend', sans-serif ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0; 
+  transition: 0.25s;
+}
+
+
+.jupoverlay:hover{
+  opacity:1;
+}
+.juphead
+{
+  font-size: 2em;
+  font-weight: normal;
+}
+.jupdesc
+{
+  font-size: 1.25em;
+  margin-top: 0.25em;
+}
+
+
+.satu
+{
+
+  position: absolute;
+  top: 111px;
+  left: 17000px;
+  width: 100px;
+  height: 100px;
+  color: grey;
+  font-size: 00.75rem;
+  
+
+}
+.satoverlay
+{
+  position: absolute;
+  top: 111.5px;
+  left: 16960px;
+  width: 120px;
+  height: 200px;
+  background: rgba(0,0,0,0.6);
+  color: brown;
+  font-size: large;
+  font-family:'quicksend', sans-serif ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0; 
+  transition: 0.25s;
+}
+
+
+.satoverlay:hover{
+  opacity:1;
+}
+.sathead
+{
+  font-size: 2em;
+  font-weight: normal;
+}
+.satdesc
+{
+  font-size: 1.25em;
+  margin-top: 0.25em;
+}
+
+
+.ura
+{
+  position: absolute;
+  top: 111px;
+  left: 33990px;
+  width: 100px;
+  height: 100px;
+  color: grey;
+  font-size: 00.75rem;
+  
+
+}
+.uroverlay
+{
+  position: absolute;
+  top: 111.5px;
+  left: 33950px;
+  width: 120px;
+  height: 200px;
+  background: rgba(0,0,0,0.6);
+  color: blue;
+  font-size: large;
+  font-family:'quicksend', sans-serif ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0; 
+  transition: 0.25s;
+}
+
+
+.uroverlay:hover{
+  opacity:1;
+}
+.urhead
+{
+  font-size: 2em;
+  font-weight: normal;
+}
+.urdesc
+{
+  font-size: 1.25em;
+  margin-top: 0.25em;
+}
+.nepu
+
+{
+  position: absolute;
+  top: 111px;
+  left: 60000px;
+  width: 100px;
+  height: 100px;
+  color: grey;
+  font-size: 00.75rem;
+}
+
+.nepoverlay
+{
+  position: absolute;
+  top: 111.5px;
+  left: 59950px;
+  width: 120px;
+  height: 200px;
+  background: rgba(0,0,0,0.6);
+  color: plum;
+  font-size: large;
+  font-family:'quicksend', sans-serif ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0; 
+  transition: 0.25s;
+}
+
+
+.nepoverlay:hover{
+  opacity:1;
+}
+.nephead
+{
+  font-size: 2em;
+  font-weight: normal;
+}
+.nepdesc
+{
+  font-size: 1.25em;
+  margin-top: 0.25em;
+}
+
+
+.plut
+{
+  position: absolute;
+  top: 111px;
+  left: 149930px;
+  width: 100px;
+  height: 100px;
+  color: grey;
+  font-size: 00.75rem;
+}
+.image_pluto
+{
+  position: absolute;
+  top: 412.5px;
+  left: 149950px;
+  transition: .3s;
+}
+.image_pluto:hover
+{
+transform: scale(100);
+}
+
+.plutooverlay
+{
+  position: absolute;
+  top: 111.5px;
+  left: 149890px;
+  width: 120px;
+  height: 200px;
+  background: rgba(0,0,0,0.6);
+  color:violet;
+  font-size: large;
+  font-family:'quicksend', sans-serif ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0; 
+  transition: 0.25s;
+}
+
+.plutooverlay:hover{
+  opacity:1;
+}
+.plutohead
+{
+  font-size: 2em;
+  font-weight: normal;
+}
+.plutodesc
+{
+  font-size: 1.25em;
+  margin-top: 0.25em;
+
+}
+.image_arrow
+{
+position: absolute;
+left: 2479px;
+top: 414.5px;
+}
+.image_closest
+{position: absolute;
+  left: 2479px;
+  top:411.5 ;
+}
+.close
+{
+  position: absolute;
+  left: 2470px;
+  color: white;
+  top: 514.5px;
+  font-size: 0.60rem;
+width: 100px;
+}
+
+.far
+{
+  position: absolute;
+  left: 148600px;
+  color: white;
+  top: 413px;
+  font-size: 0.70rem;
+width: 1500px;
+}
+
+.image_arrow2
+{
+position: absolute;
+left: 14414px;
+top: 414.5px;
+}
+.image_callisto
+{position: absolute;
+  left: 14414px;
+  top:411.5 ;
+}
+.callisto
+{
+  position: absolute;
+  left: 14414px;
+  color: white;
+  top: 514.5px;
+  font-size: 0.60rem;
+width: 300px;
+}
+
+
+.image_arrow3
+{
+position: absolute;
+left: 14814px;
+top: 414.5px;
+}
+.image_artemis
+{position: absolute;
+  left: 14814px;
+  top:411.5 ;
+}
+.artemis
+{
+  position: absolute;
+  left: 14814px;
+  color: white;
+  top: 514.5px;
+  font-size: 0.60rem;
+width: 300px;
+}
+
+
+
+
+.image_arrow4
+{
+position: absolute;
+left: 5204px;
+top: 414.5px;
+}
+.image_moon
+{position: absolute;
+  left: 5204px;
+  top:411.5px ;
+}
+.moon
+{
+  position: absolute;
+  left: 5204px;
+  color: white;
+  top: 514.5px;
+  font-size: 0.60rem;
+  width: 300px;
+}
